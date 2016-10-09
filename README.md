@@ -21,3 +21,7 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BT04-1 Setting Up Unreal-Project
 * BT04-2 Creating and Deleting Landscapes
 * BT05/06 Landscape Setup & Scaling, Landscaping Process
+* BT07 Readme updated
+* BT08 Using Landscape Layers
+* BT09 Flat Shading Low Poly Landscape
+* BT09.1 Readme updated
