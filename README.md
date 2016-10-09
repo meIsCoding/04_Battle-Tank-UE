@@ -15,4 +15,5 @@ meIsCoding
 Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to find out more about the course, and how these assets are built step-by-step.
 
 ## Lecture List
-BT01 Intro, Notes & Assets.cmproj
+* BT01 Intro, Notes & Assets.cmproj
+* BT02 Game Design Document (GDD)
