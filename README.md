@@ -25,3 +25,8 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BT08 Using Landscape Layers
 * BT09 Flat Shading Low Poly Landscape
 * BT09.1 Readme updated
+* BT10 New Setup
+* BT11 Create Tank_BP
+* BT11.1 deleted derived files
+* BT12 3rd person Camera Control (section 15)
+* BT13 Stabilized 3rd Person Camera Rotation
