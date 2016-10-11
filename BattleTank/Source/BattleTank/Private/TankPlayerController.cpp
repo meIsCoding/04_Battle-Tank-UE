@@ -4,10 +4,6 @@
 #include "TankPlayerController.h"
 
 
-ATank* ATankPlayerController::GetControlledTank() const
-{
-	return Cast<ATank>(GetPawn());
-}
 
 void ATankPlayerController::BeginPlay()
 {
@@ -22,4 +18,9 @@ void ATankPlayerController::BeginPlay()
 		UE_LOG(LogTemp, Warning, TEXT("PlayerController possessing: %s"), *(ControlledTank->GetName()));
 	}
 	UE_LOG(LogTemp, Warning, TEXT("Player Controller Begin Play"));
+}
+
+ATank* ATankPlayerController::GetControlledTank() const
+{
+	return Cast<ATank>(GetPawn());
 }

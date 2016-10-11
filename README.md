@@ -39,4 +39,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BT19 Delegating To Components
 * BT20 Using virtual and override
 * BT21 Creating AI Controller Class
+* BT22 Get the Player Controller with C++
 * 
