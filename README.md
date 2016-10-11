@@ -35,3 +35,6 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BT15 Main Menu Screen
 * BT16 UI Scale Box, Buttons & Mouse
 * BT17 Controller Ready Navigation
+* BT18 Trial Packaging
+* BT19 Delegating To Components
+* 
