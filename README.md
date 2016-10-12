@@ -41,4 +41,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BT21 Creating AI Controller Class
 * BT22 Get the Player Controller with C++
 * BT23 Add Tick() to TankPlayerController
+* BT24 Creating an Out Parameter Method
 *
