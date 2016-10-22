@@ -44,4 +44,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BT24 Creating an Out Parameter Method
 * BT25 Finding Screen Pixel Coordinates
 * BT26 Using DeprojectScreenToWorld & Refactoring
-* 
+* BE27 Using LineTraceSIngleByChannel()
+*
