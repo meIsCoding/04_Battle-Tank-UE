@@ -45,4 +45,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BT25 Finding Screen Pixel Coordinates
 * BT26 Using DeprojectScreenToWorld & Refactoring
 * BE27 Using LineTraceSIngleByChannel()
-*
+* BE28 Unify Player & AI Aiming
+* 
