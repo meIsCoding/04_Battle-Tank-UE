@@ -46,4 +46,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BT26 Using DeprojectScreenToWorld & Refactoring
 * BE27 Using LineTraceSIngleByChannel()
 * BE28 Unify Player & AI Aiming
-* 
+* BE29 Creating Default Sub Objects
+*
