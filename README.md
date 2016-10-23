@@ -49,4 +49,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BE29 Creating Default Sub Objects
 * BE30 Blueprint Callable()
 * BE31 SuggestProjectileVelocity()
-*
+* BE32 Predict Projectile Landing Point
+* 
