@@ -27,7 +27,7 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 	if (!Barrel) {
 		UE_LOG(LogTemp, Warning, TEXT("Barrel not found"));
 		return; }
-
+	auto OurTankName = GetOwner()->GetName();
 	FVector OutLaunchVelocity;
 	FVector StartLocation = Barrel->GetSocketLocation(FName("Projectile"));
 	bool bHaveAimSolution = UGameplayStatics::SuggestProjectileVelocity
@@ -37,6 +37,9 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 		StartLocation,
 		HitLocation,
 		LaunchSpeed,
+		false,
+		0,
+		0,
 		ESuggestProjVelocityTraceOption::DoNotTrace
 	);
 	if (bHaveAimSolution) // Calculate the OutLauchVelocity
@@ -44,12 +47,12 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
 		MoveBarrelTowards(AimDirection);
 		auto Time = GetWorld()->GetTimeSeconds();
-		UE_LOG(LogTemp, Warning, TEXT("%f: Aim solve found"), Time);
+		UE_LOG(LogTemp, Warning, TEXT("%f: Aim solve found for %s"), Time, *OurTankName);
 	}
 	else 
 	{
 		auto Time = GetWorld()->GetTimeSeconds();
-		UE_LOG(LogTemp, Warning, TEXT("%f: No aim solve found"), Time);
+		UE_LOG(LogTemp, Warning, TEXT("%f: No aim solve found for %s"), Time, *OurTankName);
 	}
 		
 	// else do nothing

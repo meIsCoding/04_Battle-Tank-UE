@@ -54,4 +54,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BE34 Using Forward Declarations
 * BE35 BlueprintSpawnableComponent (+"Barrel not found" resolved)
 * BE36 Review our Execution Flow
+* BE37 How to Report Bugs
 * 
