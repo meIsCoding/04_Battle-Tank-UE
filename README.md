@@ -48,4 +48,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BE28 Unify Player & AI Aiming
 * BE29 Creating Default Sub Objects
 * BE30 Blueprint Callable()
+* BE31 SuggestProjectileVelocity()
 *
