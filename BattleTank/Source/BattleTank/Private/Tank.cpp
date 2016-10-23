@@ -11,7 +11,7 @@ ATank::ATank()
 	PrimaryActorTick.bCanEverTick = true;
 
 	// No need  to protect points as added at construction
-	TankAimingComponent = CreateDefaultSubobject<UTankAimingComponent>(FName("Aiming Component"));
+	TankAimingComponent = CreateDefaultSubobject<UTankAimingComponent>(FName("AimingComponent"));
 }
 
 void ATank::SetBarrelReference(UTankBarrel* BarrelToSet)
