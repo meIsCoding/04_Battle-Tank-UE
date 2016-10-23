@@ -56,3 +56,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BE36 Review our Execution Flow
 * BE37 How to Report Bugs
 * BE38 Using Clamp() to Limit Values
+* BE39 Challenge - Turret Rotation
+* 
