@@ -51,5 +51,4 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BE31 SuggestProjectileVelocity()
 * BE32 Predict Projectile Landing Point
 * BE33 Using FRotators in Unreal
-* BE34 Using Forward Declarations
 * 
