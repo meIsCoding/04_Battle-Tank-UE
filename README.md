@@ -57,4 +57,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BE37 How to Report Bugs
 * BE38 Using Clamp() to Limit Values
 * BE39 Challenge - Turret Rotation
+* BE40 Setting up Projectiles
 * 
