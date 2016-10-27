@@ -61,4 +61,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BE41 BE41 Walk Round Awkward Bugs
 * BE41 Using SpawnActor<>() To Spawn
 * BE42 Projectile Movement Components
+* BE43 Making AITanks Fire
 * 

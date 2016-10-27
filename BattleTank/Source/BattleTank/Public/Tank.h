@@ -22,14 +22,16 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
 		void SetTurretReference(UTankTurret* TurretToSet);
+
+	UFUNCTION(BluePrintCallable, Category = Firing)
+		void Fire();
 	
 	void AimAt(FVector HitLocation);
 
 protected:
 	UTankAimingComponent* TankAimingComponent = nullptr;
 
-	UFUNCTION(BluePrintCallable, Category = Firing)
-		void Fire();
+	
 
 private:
 	// Sets default values for this pawn's properties
@@ -50,4 +52,7 @@ private:
 	// Local barrel reference for spawning projectiles
 	UTankBarrel* Barrel = nullptr;
 
+	float ReloadTimeInSeconds = 3;
+
+	double LastFireTime = 0;
 };
