@@ -63,4 +63,5 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * BE42 Projectile Movement Components
 * BE43 Making AITanks Fire
 * BE44 EditAnywhere vs EditDefaultsOnly
-*
+* BE45 Adding a Quit Button
+* 
